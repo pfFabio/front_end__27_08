@@ -1,0 +1,56 @@
+#text{
+    text-align: center;
+    color: blueviolet;
+    font-weight: bold;
+}
+
+body{
+    background-color: #c2baff;
+}
+
+#gatos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+#gatos img{
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+#gatos img:hover{
+    transform: scale(1.1);
+}
+
+#spinner{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+
+}
+
+.hidden{
+    display: none;
+}
+
+#load{
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #a72ac3;
+    color: white;
+    transition: background-color 0.3s;
+}
+
+#load:hover{
+    background-color: #100569;
+}
